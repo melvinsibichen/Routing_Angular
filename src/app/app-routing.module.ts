@@ -7,6 +7,7 @@ import { WildcardComponent } from './wildcard/wildcard.component';
 import { ProductmoduleComponent } from './productmodule/productmodule.component';
 import { ProductdetailsComponent } from './productmodule/productdetails/productdetails.component';
 import { ProductupdatesComponent } from './productmodule/productupdates/productupdates.component';
+import { StudentComponent } from './student/student.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
         path:'productupdates',component:ProductupdatesComponent
       }
     ]
+  },
+  {
+    path:'student/:studentname',
+    component:StudentComponent
   },
   {
     path: '**',

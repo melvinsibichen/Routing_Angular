@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { WildcardComponent } from './wildcard/wildcard.component';
 import { ProductmoduleModule } from './productmodule/productmodule.module';
+import { StudentComponent } from './student/student.component';
 
 
 
@@ -19,7 +20,8 @@ import { ProductmoduleModule } from './productmodule/productmodule.module';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    WildcardComponent,  
+    WildcardComponent,
+    StudentComponent,  
   ],
   imports: [
     BrowserModule,
