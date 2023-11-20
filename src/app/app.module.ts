@@ -7,6 +7,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { WildcardComponent } from './wildcard/wildcard.component';
+import { ProductmoduleModule } from './productmodule/productmodule.module';
+
+
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { ContactComponent } from './contact/contact.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    WildcardComponent,  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProductmoduleModule
+    
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
